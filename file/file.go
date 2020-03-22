@@ -31,3 +31,11 @@ func Copy(src, dst string) error {
 
 	return ioutil.WriteFile(dst, data, 0644)
 }
+
+func Move(src, dst string) error {
+	if Exists(dst) {
+		return fmt.Errorf("File, %v, already exists.", dst)
+	}
+
+	return os.Rename(src, dst)
+}
