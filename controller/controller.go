@@ -4,7 +4,7 @@ package controller
 import (
 	"net/http"
 	"fmt"
-	"createdata/router"
+	"github.com/puresoul/servgo/router"
 )
 
 // Load the routes.

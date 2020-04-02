@@ -1,4 +1,4 @@
-module createdata
+module github.com/puresoul/servgo
 
 go 1.13
 

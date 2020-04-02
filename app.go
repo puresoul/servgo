@@ -2,10 +2,10 @@ package main
 
 import (
 //	"fmt"
-	"createdata/server"
-	"createdata/router"
-	"createdata/middleware"
-	"createdata/controller"
+	"github.com/puresoul/servgo/server"
+	"github.com/puresoul/servgo/router"
+	"github.com/puresoul/servgo/middleware"
+	"github.com/puresoul/servgo/controller"
 
 )
 

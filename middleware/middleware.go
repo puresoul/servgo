@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 	"net/http"
-	"createdata/router"
+	"github.com/puresoul/servgo/router"
 )
 
 func SetUp(h http.Handler) http.Handler {
